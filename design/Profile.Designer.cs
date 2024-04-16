@@ -140,11 +140,11 @@
             this.EditButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditButton.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditButton.ForeColor = System.Drawing.Color.DimGray;
-            this.EditButton.Location = new System.Drawing.Point(487, 546);
+            this.EditButton.Location = new System.Drawing.Point(461, 543);
             this.EditButton.Name = "EditButton";
-            this.EditButton.Size = new System.Drawing.Size(221, 44);
+            this.EditButton.Size = new System.Drawing.Size(247, 44);
             this.EditButton.TabIndex = 13;
-            this.EditButton.Text = "Редактировать";
+            this.EditButton.Text = "РЕДАКТИРОВАТЬ";
             this.EditButton.UseVisualStyleBackColor = false;
             this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
             // 
@@ -155,11 +155,11 @@
             this.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaveButton.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveButton.ForeColor = System.Drawing.Color.DimGray;
-            this.SaveButton.Location = new System.Drawing.Point(238, 546);
+            this.SaveButton.Location = new System.Drawing.Point(217, 543);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(221, 44);
             this.SaveButton.TabIndex = 14;
-            this.SaveButton.Text = "Сохранить";
+            this.SaveButton.Text = "СОХРАНИТЬ";
             this.SaveButton.UseVisualStyleBackColor = false;
             // 
             // Profile

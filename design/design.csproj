@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddList.Designer.cs">
+      <DependentUpon>AddList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateNewList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewList.Designer.cs">
+      <DependentUpon>CreateNewList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Favorite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorite.Designer.cs">
+      <DependentUpon>Favorite.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +90,21 @@
     <Compile Include="RegistrationWindow.Designer.cs">
       <DependentUpon>RegistrationWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="TestFirstWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestFirstWindow.Designer.cs">
+      <DependentUpon>TestFirstWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddList.resx">
+      <DependentUpon>AddList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNewList.resx">
+      <DependentUpon>CreateNewList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Favorite.resx">
+      <DependentUpon>Favorite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +125,9 @@
     </Compile>
     <EmbeddedResource Include="RegistrationWindow.resx">
       <DependentUpon>RegistrationWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFirstWindow.resx">
+      <DependentUpon>TestFirstWindow.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
