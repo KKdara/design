@@ -149,6 +149,7 @@
             this.NextButtonButton.TabIndex = 16;
             this.NextButtonButton.Text = "ДАЛЕЕ";
             this.NextButtonButton.UseVisualStyleBackColor = false;
+            this.NextButtonButton.Click += new System.EventHandler(this.NextButtonButton_Click);
             // 
             // TestFirstWindow
             // 

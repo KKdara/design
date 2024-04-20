@@ -24,5 +24,11 @@ namespace design
             Purpose.Parent = Picture7;
             Purpose.BackColor = Color.Transparent;
         }
+
+        private void NextButtonButton_Click(object sender, EventArgs e)
+        {
+            TestSecondWindow testSecondWindow = new TestSecondWindow();
+            testSecondWindow.Show();
+        }
     }
 }
