@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace design
 {
-    public partial class Favorite : Form
+    public partial class BlackList : Form
     {
-        public Favorite()
+        public BlackList()
         {
             InitializeComponent();
             ProfileButton.Parent = Picture6;
@@ -31,11 +31,6 @@ namespace design
             MyListsButton.BackColor = Color.Transparent;
             MyListsButton.FlatAppearance.BorderSize = 0;
             MyListsButton.FlatStyle = FlatStyle.Flat;
-        }
-        private void Photo_Click(object sender, EventArgs e)
-        {
-            Card card = new Card();
-            card.Show();
         }
     }
 }

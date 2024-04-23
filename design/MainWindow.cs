@@ -96,5 +96,28 @@ namespace design
             testFirstWindow.ShowDialog();
             this.Close();
         }
+
+        private void FavButton_Click(object sender, EventArgs e)
+        {
+            Favorite favorite = new Favorite();
+            favorite.ShowDialog();
+        }
+
+        private void BlackListButton_Click(object sender, EventArgs e)
+        {
+            BlackList blackList = new BlackList();
+            blackList.ShowDialog();
+        }
+
+        private void MyListsButton_Click(object sender, EventArgs e)
+        {
+            MyCollections myCollections = new MyCollections();
+            myCollections.ShowDialog();
+        }
+
+        private void EstimateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

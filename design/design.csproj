@@ -52,11 +52,23 @@
     <Compile Include="AddList.Designer.cs">
       <DependentUpon>AddList.cs</DependentUpon>
     </Compile>
+    <Compile Include="BlackList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlackList.Designer.cs">
+      <DependentUpon>BlackList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Card.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Card.Designer.cs">
       <DependentUpon>Card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectionCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollectionCard.Designer.cs">
+      <DependentUpon>CollectionCard.cs</DependentUpon>
     </Compile>
     <Compile Include="CreateNewList.cs">
       <SubType>Form</SubType>
@@ -75,6 +87,18 @@
     </Compile>
     <Compile Include="MainWindow.Designer.cs">
       <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkWindow.Designer.cs">
+      <DependentUpon>MarkWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyCollections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyCollections.Designer.cs">
+      <DependentUpon>MyCollections.cs</DependentUpon>
     </Compile>
     <Compile Include="OpenWindow.cs">
       <SubType>Form</SubType>
@@ -111,8 +135,14 @@
     <EmbeddedResource Include="AddList.resx">
       <DependentUpon>AddList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BlackList.resx">
+      <DependentUpon>BlackList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Card.resx">
       <DependentUpon>Card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectionCard.resx">
+      <DependentUpon>CollectionCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateNewList.resx">
       <DependentUpon>CreateNewList.cs</DependentUpon>
@@ -122,6 +152,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkWindow.resx">
+      <DependentUpon>MarkWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyCollections.resx">
+      <DependentUpon>MyCollections.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OpenWindow.resx">
       <DependentUpon>OpenWindow.cs</DependentUpon>

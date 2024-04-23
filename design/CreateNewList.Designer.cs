@@ -32,8 +32,6 @@
             this.Picture5 = new System.Windows.Forms.PictureBox();
             this.Text1 = new System.Windows.Forms.Label();
             this.Text2 = new System.Windows.Forms.Label();
-            this.Text3 = new System.Windows.Forms.Label();
-            this.DescriptionCollectionText = new System.Windows.Forms.TextBox();
             this.CreateCollectionButton = new System.Windows.Forms.Button();
             this.CollectionNameText = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Picture5)).BeginInit();
@@ -44,7 +42,7 @@
             this.Picture5.Image = ((System.Drawing.Image)(resources.GetObject("Picture5.Image")));
             this.Picture5.Location = new System.Drawing.Point(-2, 0);
             this.Picture5.Name = "Picture5";
-            this.Picture5.Size = new System.Drawing.Size(753, 331);
+            this.Picture5.Size = new System.Drawing.Size(753, 208);
             this.Picture5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Picture5.TabIndex = 0;
             this.Picture5.TabStop = false;
@@ -71,25 +69,6 @@
             this.Text2.TabIndex = 9;
             this.Text2.Text = "Название\r\n\r\n";
             // 
-            // Text3
-            // 
-            this.Text3.BackColor = System.Drawing.Color.Transparent;
-            this.Text3.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Text3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Text3.Location = new System.Drawing.Point(89, 140);
-            this.Text3.Name = "Text3";
-            this.Text3.Size = new System.Drawing.Size(178, 39);
-            this.Text3.TabIndex = 10;
-            this.Text3.Text = "Описание";
-            // 
-            // DescriptionCollectionText
-            // 
-            this.DescriptionCollectionText.Location = new System.Drawing.Point(296, 140);
-            this.DescriptionCollectionText.Multiline = true;
-            this.DescriptionCollectionText.Name = "DescriptionCollectionText";
-            this.DescriptionCollectionText.Size = new System.Drawing.Size(382, 101);
-            this.DescriptionCollectionText.TabIndex = 11;
-            // 
             // CreateCollectionButton
             // 
             this.CreateCollectionButton.BackColor = System.Drawing.Color.FloralWhite;
@@ -97,7 +76,7 @@
             this.CreateCollectionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CreateCollectionButton.Font = new System.Drawing.Font("Microsoft JhengHei UI Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateCollectionButton.ForeColor = System.Drawing.Color.DimGray;
-            this.CreateCollectionButton.Location = new System.Drawing.Point(267, 263);
+            this.CreateCollectionButton.Location = new System.Drawing.Point(275, 146);
             this.CreateCollectionButton.Name = "CreateCollectionButton";
             this.CreateCollectionButton.Size = new System.Drawing.Size(213, 38);
             this.CreateCollectionButton.TabIndex = 16;
@@ -116,11 +95,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(750, 330);
+            this.ClientSize = new System.Drawing.Size(750, 207);
             this.Controls.Add(this.CollectionNameText);
             this.Controls.Add(this.CreateCollectionButton);
-            this.Controls.Add(this.DescriptionCollectionText);
-            this.Controls.Add(this.Text3);
             this.Controls.Add(this.Text2);
             this.Controls.Add(this.Text1);
             this.Controls.Add(this.Picture5);
@@ -138,8 +115,6 @@
         private System.Windows.Forms.PictureBox Picture5;
         private System.Windows.Forms.Label Text1;
         private System.Windows.Forms.Label Text2;
-        private System.Windows.Forms.Label Text3;
-        private System.Windows.Forms.TextBox DescriptionCollectionText;
         private System.Windows.Forms.Button CreateCollectionButton;
         private System.Windows.Forms.TextBox CollectionNameText;
     }

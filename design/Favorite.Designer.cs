@@ -33,6 +33,7 @@
             this.ProfileButton = new System.Windows.Forms.Button();
             this.FavButton = new System.Windows.Forms.Button();
             this.BlackListButton = new System.Windows.Forms.Button();
+            this.MyListsButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Picture6)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,17 +76,27 @@
             this.BlackListButton.TabIndex = 10;
             this.BlackListButton.UseVisualStyleBackColor = true;
             // 
-            // Favourite
+            // MyListsButton
+            // 
+            this.MyListsButton.Image = ((System.Drawing.Image)(resources.GetObject("MyListsButton.Image")));
+            this.MyListsButton.Location = new System.Drawing.Point(582, 6);
+            this.MyListsButton.Name = "MyListsButton";
+            this.MyListsButton.Size = new System.Drawing.Size(64, 64);
+            this.MyListsButton.TabIndex = 11;
+            this.MyListsButton.UseVisualStyleBackColor = true;
+            // 
+            // Favorite
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(791, 677);
+            this.Controls.Add(this.MyListsButton);
             this.Controls.Add(this.BlackListButton);
             this.Controls.Add(this.FavButton);
             this.Controls.Add(this.ProfileButton);
             this.Controls.Add(this.Picture6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Name = "Favourite";
+            this.Name = "Favorite";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.Picture6)).EndInit();
             this.ResumeLayout(false);
@@ -98,5 +109,6 @@
         private System.Windows.Forms.Button ProfileButton;
         private System.Windows.Forms.Button FavButton;
         private System.Windows.Forms.Button BlackListButton;
+        private System.Windows.Forms.Button MyListsButton;
     }
 }

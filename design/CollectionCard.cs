@@ -4,38 +4,41 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace design
 {
-    public partial class Favorite : Form
+    public partial class CollectionCard : Form
     {
-        public Favorite()
+        public CollectionCard()
         {
             InitializeComponent();
-            ProfileButton.Parent = Picture6;
+            Name.Parent = Picture7;
+            Name.BackColor = Color.Transparent;
+            ProfileButton.Parent = Picture7;
             ProfileButton.BackColor = Color.Transparent;
             ProfileButton.FlatAppearance.BorderSize = 0;
             ProfileButton.FlatStyle = FlatStyle.Flat;
-            FavButton.Parent = Picture6;
+            FavButton.Parent = Picture7;
             FavButton.BackColor = Color.Transparent;
             FavButton.FlatAppearance.BorderSize = 0;
             FavButton.FlatStyle = FlatStyle.Flat;
-            BlackListButton.Parent = Picture6;
+            BlackListButton.Parent = Picture7;
             BlackListButton.BackColor = Color.Transparent;
             BlackListButton.FlatAppearance.BorderSize = 0;
             BlackListButton.FlatStyle = FlatStyle.Flat;
-            MyListsButton.Parent = Picture6;
+            MyListsButton.Parent = Picture7;
             MyListsButton.BackColor = Color.Transparent;
             MyListsButton.FlatAppearance.BorderSize = 0;
             MyListsButton.FlatStyle = FlatStyle.Flat;
         }
-        private void Photo_Click(object sender, EventArgs e)
+
+        private void EditButton_Click(object sender, EventArgs e)
         {
-            Card card = new Card();
-            card.Show();
+            SaveButton.Show();
         }
     }
 }

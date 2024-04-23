@@ -97,6 +97,7 @@
             this.FavButton.Size = new System.Drawing.Size(70, 64);
             this.FavButton.TabIndex = 8;
             this.FavButton.UseVisualStyleBackColor = true;
+            this.FavButton.Click += new System.EventHandler(this.FavButton_Click);
             // 
             // BlackListButton
             // 
@@ -106,15 +107,17 @@
             this.BlackListButton.Size = new System.Drawing.Size(64, 64);
             this.BlackListButton.TabIndex = 9;
             this.BlackListButton.UseVisualStyleBackColor = true;
+            this.BlackListButton.Click += new System.EventHandler(this.BlackListButton_Click);
             // 
             // MyListsButton
             // 
+            this.MyListsButton.Image = ((System.Drawing.Image)(resources.GetObject("MyListsButton.Image")));
             this.MyListsButton.Location = new System.Drawing.Point(595, 10);
             this.MyListsButton.Name = "MyListsButton";
             this.MyListsButton.Size = new System.Drawing.Size(64, 64);
             this.MyListsButton.TabIndex = 10;
-            this.MyListsButton.Text = "мои подбор";
             this.MyListsButton.UseVisualStyleBackColor = true;
+            this.MyListsButton.Click += new System.EventHandler(this.MyListsButton_Click);
             // 
             // StraightButton
             // 
@@ -171,6 +174,7 @@
             this.EstimateButton.Size = new System.Drawing.Size(59, 56);
             this.EstimateButton.TabIndex = 17;
             this.EstimateButton.UseVisualStyleBackColor = true;
+            this.EstimateButton.Click += new System.EventHandler(this.EstimateButton_Click);
             // 
             // RealtyPhoto
             // 

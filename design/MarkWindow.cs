@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace design
 {
-    public partial class CreateNewList : Form
+    public partial class MarkWindow : Form
     {
-        public CreateNewList()
+        public MarkWindow()
         {
             InitializeComponent();
-            Text1.Parent = Picture5;
-            Text1.BackColor = Color.Transparent;
-            Text2.Parent = Picture5;
-            Text2.BackColor = Color.Transparent;
         }
     }
 }
