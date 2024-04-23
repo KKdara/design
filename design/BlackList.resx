@@ -121,7 +121,7 @@
   <data name="MyListsButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAYAAADn/TAIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABRVJREFUeF7t3etN40AUhmFKSAkpgRIogQ6gA+gg6WDpADqADlJCSuAXFyFQxFVI
+        DgAACw4BQL7hQQAABRVJREFUeF7t3etN40AUhmFKSAkpgRIogQ6gA+gg6WDpADqADlJCSuAXFyFQxFVI
         XLzzec9Es2YcOWYmkMn7SEdgx/FmzvnWDiuR3QIAAMCPGbmauaoKLq1P60Qif1zFGl1qjV0hgdKvNM06
         d4UEYs0tuQhOIrHmllwEJ5FYc0sugpNIrLklF8FJJNbckovgJBJrbslFcBKJNfe/Gg6H0f3fqcFgkPy8
         Hc9HcBKJNbeug4OD6vz8vJpMJvXX0WgUPa5Laah7e3vz7dPT0/r84TF9S+eeTqf161Tt7u5Gj7MiOInE
@@ -149,7 +149,7 @@
   <data name="BlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAYAAACKXvmlAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAABulJREFUeF7tndFR40oURKnia98XX/t2/wiBEMjgkQFkABlABo8MIAPIgBAIgRAI
+        DAAACwwBP0AiyAAABulJREFUeF7tndFR40oURKnia98XX/t2/wiBEMjgkQFkABlABo8MIAPIgBAIgRAI
         wTtHdccl7JYtWVfG1vapumVpNJq57m5kiqpdnxhjjDHGmL1xX+qz1GKm9VbqvJRJ4v9SSui51Ueps1Im
         gTk/YVbrppRJQIk713JoklDizrUcmiSUuHMthyYJJe5cy6FJQok713JoklDizrUcmiSUuF/q/Pxcjo+p
         s7OzSdbdUg5NEkrcpm5vbxcfHx+Lt7e35vX+/l7O61ME5Pr6enn+8vLSrN+es2uxdu1RXW+VQ5OEErd5

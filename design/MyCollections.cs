@@ -38,5 +38,23 @@ namespace design
             CreateNewList createNewList = new CreateNewList();
             createNewList.ShowDialog();
         }
+
+        private void ProfileButton_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.ShowDialog();
+        }
+
+        private void FavButton_Click(object sender, EventArgs e)
+        {
+            Favorite favorite = new Favorite();
+            favorite.ShowDialog();
+        }
+
+        private void BlackListButton_Click(object sender, EventArgs e)
+        {
+            BlackList blackList = new BlackList();
+            blackList.ShowDialog();
+        }
     }
 }

@@ -55,6 +55,7 @@
             this.BlackListButton.Size = new System.Drawing.Size(64, 64);
             this.BlackListButton.TabIndex = 15;
             this.BlackListButton.UseVisualStyleBackColor = true;
+            this.BlackListButton.Click += new System.EventHandler(this.BlackListButton_Click);
             // 
             // FavButton
             // 
@@ -64,6 +65,7 @@
             this.FavButton.Size = new System.Drawing.Size(70, 64);
             this.FavButton.TabIndex = 14;
             this.FavButton.UseVisualStyleBackColor = true;
+            this.FavButton.Click += new System.EventHandler(this.FavButton_Click);
             // 
             // ProfileButton
             // 
@@ -74,6 +76,7 @@
             this.ProfileButton.Size = new System.Drawing.Size(61, 61);
             this.ProfileButton.TabIndex = 13;
             this.ProfileButton.UseVisualStyleBackColor = true;
+            this.ProfileButton.Click += new System.EventHandler(this.ProfileButton_Click);
             // 
             // Picture7
             // 

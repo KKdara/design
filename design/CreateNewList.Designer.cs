@@ -85,6 +85,8 @@
             // 
             // CollectionNameText
             // 
+            this.CollectionNameText.BackColor = System.Drawing.Color.FloralWhite;
+            this.CollectionNameText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CollectionNameText.Location = new System.Drawing.Point(296, 86);
             this.CollectionNameText.Multiline = true;
             this.CollectionNameText.Name = "CollectionNameText";

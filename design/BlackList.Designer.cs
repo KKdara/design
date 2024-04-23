@@ -45,6 +45,7 @@
             this.MyListsButton.Size = new System.Drawing.Size(64, 64);
             this.MyListsButton.TabIndex = 16;
             this.MyListsButton.UseVisualStyleBackColor = true;
+            this.MyListsButton.Click += new System.EventHandler(this.MyListsButton_Click);
             // 
             // BlackListButton
             // 
@@ -63,6 +64,7 @@
             this.FavButton.Size = new System.Drawing.Size(70, 64);
             this.FavButton.TabIndex = 14;
             this.FavButton.UseVisualStyleBackColor = true;
+            this.FavButton.Click += new System.EventHandler(this.FavButton_Click);
             // 
             // ProfileButton
             // 
@@ -73,6 +75,7 @@
             this.ProfileButton.Size = new System.Drawing.Size(61, 61);
             this.ProfileButton.TabIndex = 13;
             this.ProfileButton.UseVisualStyleBackColor = true;
+            this.ProfileButton.Click += new System.EventHandler(this.ProfileButton_Click);
             // 
             // Picture6
             // 
@@ -97,6 +100,7 @@
             this.Controls.Add(this.Picture6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "BlackList";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.Picture6)).EndInit();
             this.ResumeLayout(false);
 

@@ -28,37 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Children = new System.Windows.Forms.Label();
-            this.Animals = new System.Windows.Forms.Label();
+            this.Square = new System.Windows.Forms.Label();
+            this.Price = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Floor = new System.Windows.Forms.Label();
             this.AddressText = new System.Windows.Forms.Label();
             this.SquareText = new System.Windows.Forms.Label();
             this.PriceText = new System.Windows.Forms.Label();
             this.FloorText = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Children
+            // Square
             // 
-            this.Children.BackColor = System.Drawing.Color.Transparent;
-            this.Children.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Children.ForeColor = System.Drawing.Color.DimGray;
-            this.Children.Location = new System.Drawing.Point(12, 56);
-            this.Children.Name = "Children";
-            this.Children.Size = new System.Drawing.Size(165, 45);
-            this.Children.TabIndex = 9;
-            this.Children.Text = "Площадь:";
+            this.Square.BackColor = System.Drawing.Color.Transparent;
+            this.Square.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Square.ForeColor = System.Drawing.Color.DimGray;
+            this.Square.Location = new System.Drawing.Point(12, 56);
+            this.Square.Name = "Square";
+            this.Square.Size = new System.Drawing.Size(165, 45);
+            this.Square.TabIndex = 9;
+            this.Square.Text = "Площадь:";
             // 
-            // Animals
+            // Price
             // 
-            this.Animals.BackColor = System.Drawing.Color.Transparent;
-            this.Animals.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Animals.ForeColor = System.Drawing.Color.DimGray;
-            this.Animals.Location = new System.Drawing.Point(12, 101);
-            this.Animals.Name = "Animals";
-            this.Animals.Size = new System.Drawing.Size(125, 43);
-            this.Animals.TabIndex = 10;
-            this.Animals.Text = "Цена:";
+            this.Price.BackColor = System.Drawing.Color.Transparent;
+            this.Price.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Price.ForeColor = System.Drawing.Color.DimGray;
+            this.Price.Location = new System.Drawing.Point(12, 101);
+            this.Price.Name = "Price";
+            this.Price.Size = new System.Drawing.Size(125, 43);
+            this.Price.TabIndex = 10;
+            this.Price.Text = "Цена:";
             // 
             // Address
             // 
@@ -71,16 +71,16 @@
             this.Address.TabIndex = 11;
             this.Address.Text = "Адрес:";
             // 
-            // label1
+            // Floor
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(12, 144);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 43);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Этаж:";
+            this.Floor.BackColor = System.Drawing.Color.Transparent;
+            this.Floor.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Floor.ForeColor = System.Drawing.Color.DimGray;
+            this.Floor.Location = new System.Drawing.Point(12, 144);
+            this.Floor.Name = "Floor";
+            this.Floor.Size = new System.Drawing.Size(125, 43);
+            this.Floor.TabIndex = 12;
+            this.Floor.Text = "Этаж:";
             // 
             // AddressText
             // 
@@ -132,22 +132,23 @@
             this.Controls.Add(this.PriceText);
             this.Controls.Add(this.SquareText);
             this.Controls.Add(this.AddressText);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Floor);
             this.Controls.Add(this.Address);
-            this.Controls.Add(this.Animals);
-            this.Controls.Add(this.Children);
+            this.Controls.Add(this.Price);
+            this.Controls.Add(this.Square);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Card";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label Children;
-        private System.Windows.Forms.Label Animals;
+        private System.Windows.Forms.Label Square;
+        private System.Windows.Forms.Label Price;
         private System.Windows.Forms.Label Address;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Floor;
         private System.Windows.Forms.Label AddressText;
         private System.Windows.Forms.Label SquareText;
         private System.Windows.Forms.Label PriceText;

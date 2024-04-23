@@ -32,5 +32,23 @@ namespace design
             MyListsButton.FlatAppearance.BorderSize = 0;
             MyListsButton.FlatStyle = FlatStyle.Flat;
         }
+
+        private void ProfileButton_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.ShowDialog();
+        }
+
+        private void FavButton_Click(object sender, EventArgs e)
+        {
+            Favorite favorite = new Favorite();
+            favorite.ShowDialog();
+        }
+
+        private void MyListsButton_Click(object sender, EventArgs e)
+        {
+            MyCollections myCollections = new MyCollections();
+            myCollections.ShowDialog();
+        }
     }
 }

@@ -41,6 +41,7 @@
             this.Photo8 = new System.Windows.Forms.PictureBox();
             this.Photo9 = new System.Windows.Forms.PictureBox();
             this.Photo10 = new System.Windows.Forms.PictureBox();
+            this.FinishButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Picture8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Photo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Photo2)).BeginInit();
@@ -69,7 +70,7 @@
             this.Text1.BackColor = System.Drawing.Color.Transparent;
             this.Text1.Font = new System.Drawing.Font("Constantia", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Text1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Text1.Location = new System.Drawing.Point(142, 21);
+            this.Text1.Location = new System.Drawing.Point(3, 9);
             this.Text1.Name = "Text1";
             this.Text1.Size = new System.Drawing.Size(911, 54);
             this.Text1.TabIndex = 8;
@@ -165,11 +166,26 @@
             this.Photo10.TabStop = false;
             this.Photo10.Click += new System.EventHandler(this.Photo1_Click);
             // 
+            // FinishButton
+            // 
+            this.FinishButton.BackColor = System.Drawing.Color.FloralWhite;
+            this.FinishButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.FinishButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FinishButton.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FinishButton.ForeColor = System.Drawing.Color.DimGray;
+            this.FinishButton.Location = new System.Drawing.Point(1002, 10);
+            this.FinishButton.Name = "FinishButton";
+            this.FinishButton.Size = new System.Drawing.Size(249, 44);
+            this.FinishButton.TabIndex = 19;
+            this.FinishButton.Text = "ЗАВЕРШИТЬ";
+            this.FinishButton.UseVisualStyleBackColor = false;
+            // 
             // TestSecondWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1279, 713);
+            this.Controls.Add(this.FinishButton);
             this.Controls.Add(this.Photo10);
             this.Controls.Add(this.Photo9);
             this.Controls.Add(this.Photo8);
@@ -214,5 +230,6 @@
         private System.Windows.Forms.PictureBox Photo8;
         private System.Windows.Forms.PictureBox Photo9;
         private System.Windows.Forms.PictureBox Photo10;
+        private System.Windows.Forms.Button FinishButton;
     }
 }

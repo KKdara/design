@@ -81,7 +81,7 @@ namespace design
         {
             Profile profile = new Profile();
             profile.ShowDialog();
-            this.Close();
+            
         }
 
         private void AddButton_Click(object sender, EventArgs e)
@@ -117,7 +117,8 @@ namespace design
 
         private void EstimateButton_Click(object sender, EventArgs e)
         {
-
+            MarkWindow markWindow = new MarkWindow();
+            markWindow.ShowDialog();
         }
     }
 }

@@ -37,5 +37,23 @@ namespace design
             Card card = new Card();
             card.Show();
         }
+
+        private void ProfileButton_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.ShowDialog();
+        }
+
+        private void BlackListButton_Click(object sender, EventArgs e)
+        {
+            BlackList blackList = new BlackList();
+            blackList.ShowDialog();
+        }
+
+        private void MyListsButton_Click(object sender, EventArgs e)
+        {
+            MyCollections myCollections = new MyCollections();
+            myCollections.ShowDialog();
+        }
     }
 }
